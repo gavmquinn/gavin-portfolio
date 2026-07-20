@@ -11,13 +11,13 @@ function slateHTML(c) {
     '<div class="slate">' +
       '<div class="slate-year">' + c.date + '</div>' +
       '<div>' +
-        '<div class="slate-title">' + c.title + '</div>' +
+        '<div class="slate-title-row">' +
+          '<div class="slate-title">' + c.title + '</div>' +
+          imdb +
+        '</div>' +
         '<div class="slate-meta">' + creditMeta(c) + '</div>' +
       '</div>' +
-      '<div class="slate-side">' +
-        '<div class="slate-tag">' + c.role + '</div>' +
-        imdb +
-      '</div>' +
+      '<div class="slate-tag">' + c.role + '</div>' +
     '</div>'
   );
 }

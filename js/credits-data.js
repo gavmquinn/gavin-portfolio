@@ -2,6 +2,7 @@
 // Adding/removing an entry here automatically updates the credits page
 // and the homepage's production-count stat.
 const CREDITS = [
+  { year: 2026, date: "Apr 2026", title: "Crowning At The Prom", type: "Movie", location: "Hamilton, ON", company: "NE Crowning at the Prom Productions ULC", role: "Sound Mixer", imdb: "tt42004395" },
   { year: 2026, date: "Jun–Jul 2026", title: "The Christmas Feast", type: "Movie", location: "Hamilton, ON", company: "NE Christmas Eve Productions ULC", role: "Sound Mixer", imdb: null },
   { year: 2026, date: "May 2026", title: "Bulges", type: "TV Show", location: "Hamilton, ON", company: "Bulges Inc.", role: "Sound Mixer", imdb: null },
   { year: 2026, date: "May 2026", title: "Argos Media Day", type: "TV", location: "Waterloo, ON", company: "Superhuman Images Inc.", role: "Sound Mixer", imdb: null },
