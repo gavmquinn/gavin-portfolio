@@ -41,9 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var html = "";
   years.forEach(function (year) {
     html += '<div class="year-heading">' + year + '</div>';
-    CREDITS.filter(function (c) { return c.year === year; }).forEach(function (c) {
-      html += slateHTML(c);
-    });
+    CREDITS.filter(function (c) { return c.year === year; })
+      .sort(function (a, b) { return b.month - a.month; })
+      .forEach(function (c) {
+        html += slateHTML(c);
+      });
   });
   container.innerHTML = html;
 
