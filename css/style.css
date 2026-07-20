@@ -43,6 +43,7 @@ nav .wrap{
   font-size:18px;
   letter-spacing:0.08em;
   color:var(--paper);
+  text-decoration:none;
 }
 .logo span{color:var(--amber);}
 .navlinks{display:flex; gap:36px; list-style:none;}
@@ -196,7 +197,8 @@ nav .wrap{
 .slate:hover{background:var(--bg-raised);}
 .slate-year{
   font-family:'IBM Plex Mono',monospace;
-  font-size:14px;
+  font-size:12px;
+  line-height:1.4;
   color:var(--amber);
 }
 .slate-title{
@@ -224,6 +226,36 @@ nav .wrap{
   letter-spacing:0.08em;
   white-space:nowrap;
 }
+
+.see-all{
+  text-align:center;
+  margin-top:48px;
+}
+
+/* CREDITS PAGE */
+.credits-header{
+  padding:64px 0 0;
+}
+.credits-header .back-link{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--paper-dim);
+  text-decoration:none;
+}
+.credits-header .back-link:hover{color:var(--amber);}
+.year-heading{
+  font-family:'Oswald',sans-serif;
+  font-size:22px;
+  color:var(--amber);
+  text-transform:uppercase;
+  letter-spacing:0.04em;
+  margin:56px 0 8px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--line);
+}
+.year-heading:first-of-type{margin-top:32px;}
 
 /* ABOUT */
 .about{
