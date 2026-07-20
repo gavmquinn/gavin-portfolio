@@ -81,14 +81,22 @@ nav .wrap{
   position:relative;
   padding:160px 0 100px;
   border-bottom:1px solid var(--line);
+  min-height:640px;
+  display:flex;
+  align-items:flex-end;
+  overflow:hidden;
+}
+.hero::before{
+  content:'';
+  position:absolute;
+  inset:0;
   background-image:
     linear-gradient(180deg, rgba(16,17,19,0.55) 0%, rgba(16,17,19,0.75) 55%, rgba(16,17,19,1) 100%),
     url('../images/gavinbooming.jpg');
   background-size:cover;
   background-position:center 30%;
-  min-height:640px;
-  display:flex;
-  align-items:flex-end;
+  transform:scaleX(-1);
+  z-index:0;
 }
 .hero::after{
   content:'';
@@ -96,8 +104,9 @@ nav .wrap{
   left:0; right:0; bottom:-1px;
   height:6px;
   background:var(--bg);
+  z-index:1;
 }
-.hero .wrap{width:100%; position:relative; z-index:1;}
+.hero .wrap{width:100%; position:relative; z-index:2;}
 .rec-dot{
   width:8px; height:8px; border-radius:50%;
   background:var(--red);

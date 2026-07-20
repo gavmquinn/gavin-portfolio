@@ -1,8 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var el = document.getElementById("productions-stat");
-  if (!el || typeof CREDITS === "undefined") return;
-
+  if (typeof CREDITS === "undefined") return;
   var count = CREDITS.length;
-  var tier = Math.floor((count - 1) / 5) * 5;
-  el.textContent = tier + "+";
+
+  var statEl = document.getElementById("productions-stat");
+  if (statEl) {
+    var tier = Math.floor((count - 1) / 5) * 5;
+    statEl.textContent = tier + "+";
+  }
+
+  var seeAllEl = document.getElementById("see-all-link");
+  if (seeAllEl) {
+    seeAllEl.textContent = "See all " + count + " credits";
+  }
 });
