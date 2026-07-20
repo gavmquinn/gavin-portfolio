@@ -208,6 +208,15 @@ nav .wrap{
   line-height:1.4;
   color:var(--amber);
 }
+.slate-category{
+  font-family:'IBM Plex Mono',monospace;
+  font-weight:500;
+  font-size:12px;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--teal);
+  margin-top:6px;
+}
 .slate-title-row{
   display:flex;
   align-items:center;
@@ -324,6 +333,30 @@ nav .wrap{
   transition:transform 0.2s;
 }
 .credits-header .back-link:hover .back-arrow{transform:translateX(-4px);}
+.filter-bar{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:28px;
+}
+.filter-btn{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  padding:8px 16px;
+  border:1px solid var(--line);
+  background:transparent;
+  color:var(--paper-dim);
+  cursor:pointer;
+  transition:all 0.2s;
+}
+.filter-btn:hover{border-color:var(--amber); color:var(--paper);}
+.filter-btn.active{
+  background:var(--amber);
+  border-color:var(--amber);
+  color:#20160A;
+}
 .year-heading{
   font-family:'Oswald',sans-serif;
   font-size:22px;
