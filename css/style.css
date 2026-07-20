@@ -226,6 +226,25 @@ nav .wrap{
   letter-spacing:0.08em;
   white-space:nowrap;
 }
+.slate-side{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:8px;
+}
+.imdb-link{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;
+  color:var(--paper-dim);
+  border:1px solid var(--line);
+  padding:5px 10px;
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  white-space:nowrap;
+  text-decoration:none;
+  transition:all 0.2s;
+}
+.imdb-link:hover{color:var(--amber); border-color:var(--amber);}
 
 .see-all{
   text-align:center;
@@ -237,14 +256,23 @@ nav .wrap{
   padding:64px 0 0;
 }
 .credits-header .back-link{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
   font-family:'IBM Plex Mono',monospace;
   font-size:12px;
   letter-spacing:0.1em;
   text-transform:uppercase;
   color:var(--paper-dim);
   text-decoration:none;
+  transition:color 0.2s;
 }
 .credits-header .back-link:hover{color:var(--amber);}
+.credits-header .back-arrow{
+  display:inline-block;
+  transition:transform 0.2s;
+}
+.credits-header .back-link:hover .back-arrow{transform:translateX(-4px);}
 .year-heading{
   font-family:'Oswald',sans-serif;
   font-size:22px;
