@@ -369,6 +369,83 @@ nav .wrap{
 }
 .year-heading:first-of-type{margin-top:32px;}
 
+/* EQUIPMENT PAGE */
+.kit-heading{
+  font-family:'Oswald',sans-serif;
+  font-size:26px;
+  color:var(--paper);
+  text-transform:uppercase;
+  letter-spacing:0.02em;
+  margin:64px 0 6px;
+}
+.kit-heading:first-of-type{margin-top:32px;}
+.kit-sub{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;
+  color:var(--teal);
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  margin-bottom:24px;
+}
+.spec-row{
+  display:grid;
+  grid-template-columns:200px 1fr;
+  gap:24px;
+  padding:16px 0;
+  border-bottom:1px solid var(--line);
+}
+.spec-label{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:0.06em;
+  color:var(--teal);
+}
+.spec-value{
+  color:var(--paper-dim);
+  font-size:15px;
+  line-height:1.6;
+}
+.gear-list{list-style:none;}
+.gear-list li{
+  padding:14px 0 14px 22px;
+  border-bottom:1px solid var(--line);
+  color:var(--paper-dim);
+  font-size:15px;
+  line-height:1.6;
+  position:relative;
+}
+.gear-list li::before{
+  content:'—';
+  position:absolute;
+  left:0;
+  color:var(--teal);
+}
+.equipment-photos{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  gap:24px;
+  margin:40px 0;
+}
+.equipment-photos figure{margin:0;}
+.equipment-photos img{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:contain;
+  background:var(--bg-raised);
+  border:1px solid var(--line);
+  display:block;
+}
+.photo-caption{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;
+  color:var(--paper-dim);
+  text-transform:uppercase;
+  letter-spacing:0.06em;
+  margin-top:10px;
+  text-align:center;
+}
+
 /* ABOUT */
 .about{
   display:grid;
@@ -458,4 +535,5 @@ footer{
     row-gap:14px;
   }
   .navlinks{width:100%; justify-content:space-between; gap:0;}
+  .spec-row{grid-template-columns:1fr; gap:4px;}
 }
