@@ -16,7 +16,7 @@ const CREDITS = [
   { year: 2025, date: "Sep–Oct 2025", title: "America's Culinary Cup", type: "Reality Show", location: "Etobicoke, ON", company: "Sagia Productions", role: "A2", imdb: null },
   { year: 2025, date: "May–Jun 2025", title: "Lice", type: "Movie", location: "Hamilton, ON", company: "French Toast Films", role: "Boom Operator", imdb: "tt37255755" },
   { year: 2025, date: "Oct 2025", title: "FOX Sports WS Pregame Special", type: "TV", location: "Toronto, ON", company: "FOX Sports", role: "Sound Mixer", imdb: null },
-  { year: 2025, date: "Aug 2025", title: "H&S Beats Evolution Project", type: "Ad", location: "Calgary, AB", company: "Sequoia Productions", role: "Sound Mixer", imdb: null },
+  { year: 2025, date: "Aug 2025", title: "H&S Beats Evolution Project", type: "Ad", location: "Calgary, AB", company: "Sequoia Productions", role: "Sound Mixer", imdb: null, video: "https://youtu.be/xErvf5nat4Y" },
   { year: 2025, date: "Aug 2025", title: "Doc", type: "TV Show", location: "Hamilton, ON", company: "Idaho Productions Ltd.", role: "Daily Boom Operator", imdb: null },
   { year: 2025, date: "Jul 2025", title: "I Will Find You", type: "TV Show", location: "Toronto, ON", company: "Quartz Productions", role: "Daily Boom Operator", imdb: null },
   { year: 2025, date: "Jul 2025", title: "Killer Clues / How to Hire a Hitman", type: "TV Show", location: "Hamilton, ON", company: "Shadow Pine Productions", role: "Sound Mixer", imdb: null },
