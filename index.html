@@ -25,6 +25,7 @@
       <li><a href="#work">Work</a></li>
       <li><a href="#reel">Reel</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
       <li><a href="equipment.html">Equipment</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -181,6 +182,45 @@ under pressure.</p>
   </div>
 </section>
 
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Gallery</h2>
+      <div class="section-num">6 photos</div>
+    </div>
+    <div class="gallery-grid">
+      <button type="button" class="gallery-item" data-index="0">
+        <img src="images/gallery/gallery-audio-rack.jpeg" alt="Mixing sound for 'The Memory Keeper' (2025)" loading="lazy">
+      </button>
+      <button type="button" class="gallery-item" data-index="1">
+        <img src="images/gallery/gallery-boom-bw.jpg" alt="On set of 'Move In' (2024)" loading="lazy">
+      </button>
+      <button type="button" class="gallery-item" data-index="2">
+        <img src="images/gallery/gallery-kaleidoscope.jpg" alt="On the set for the FOX World Series pregame special interviews. (2025)" loading="lazy">
+      </button>
+      <button type="button" class="gallery-item" data-index="3">
+        <img src="images/gallery/gallery-payphone.jpg" alt="Placing a plant mic to capture every sound possible." loading="lazy">
+      </button>
+      <button type="button" class="gallery-item" data-index="4">
+        <img src="images/gallery/gallery-kitchen-set.jpg" alt="Capturing clean dialogue for 'Thank you for coming'. (2026)" loading="lazy">
+      </button>
+      <button type="button" class="gallery-item" data-index="5">
+        <img src="images/gallery/gallery-hero-repeat.jpg" alt="Out in the bush capturing a scene for 'Most of the time we are just waiting' (2021)" loading="lazy">
+      </button>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+  <button type="button" class="lightbox-arrow lightbox-prev" id="lightbox-prev" aria-label="Previous image">‹</button>
+  <figure class="lightbox-figure">
+    <img src="" alt="" id="lightbox-img">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox-arrow lightbox-next" id="lightbox-next" aria-label="Next image">›</button>
+</div>
+
 <section class="contact" id="contact">
   <div class="wrap">
     <h2>Available for upcoming productions</h2>
@@ -195,6 +235,7 @@ under pressure.</p>
 
 <script src="js/credits-data.js"></script>
 <script src="js/home-stats.js"></script>
+<script src="js/gallery.js"></script>
 
 </body>
 </html>
