@@ -132,6 +132,10 @@ nav .wrap{
   color:var(--paper-dim);
   font-size:16px;
 }
+.hero-sub-highlight{
+  color:var(--teal);
+  font-weight:600;
+}
 .hero-cta{
   margin-top:36px;
   display:flex;
