@@ -27,7 +27,7 @@ const CREDITS = [
   { year: 2025, month: 7, date: "Jul 2025", title: "I Will Find You", category: "TV Show", location: "Toronto, ON", company: "Quartz Productions", role: "Daily Boom Operator", imdb: "tt34771210" },
   { year: 2025, month: 7, date: "Jul 2025", title: "Killer Clues / How to Hire a Hitman", category: "TV Show", location: "Hamilton, ON", company: "Shadow Pine Productions", role: "Sound Mixer", imdb: null },
   { year: 2025, month: 5, date: "May 2025", title: "Holt Renfrew X Function", category: "Commercial", location: "Toronto, ON", company: "Made By Plot", role: "Sound Mixer", imdb: null },
-  { year: 2025, month: 4, date: "Mar–Apr 2025", title: "Fake Yourself a Merry Little Christmas", category: "Movie", location: "Hamilton, ON", company: "Neshama Entertainment", role: "Sound Mixer", imdb: "tt38126406" },
+  { year: 2025, month: 4, date: "Mar–Apr 2025", title: "Fake Yourself a Merry Little Christmas", category: "Movie", location: "Hamilton, ON", company: "Neshama Entertainment", role: "Sound Mixer", imdb: "tt38126406", video: "https://youtu.be/uvVxOjGQ6pA" },
   { year: 2025, month: 1, date: "Jan 2025", title: "Savvy Sheldon Feels Good as Hell", category: "Movie", location: "Hamilton, ON", company: "Neshama Entertainment", role: "Boom Operator", imdb: "tt35002927" },
 
   { year: 2024, month: 7, date: "Jun–Jul 2024", title: "The Memory Keeper", category: "Movie", location: "London, ON", company: "Falsehood Pictures Inc.", role: "Sound Mixer", imdb: "tt22640460", video: "https://youtu.be/kaD_docBDDo" },
@@ -40,7 +40,7 @@ const CREDITS = [
   { year: 2024, month: 10, date: "Oct 2024", title: "Gowling", category: "Commercial", location: "Waterloo, ON", company: "Nexus Communications North America", role: "Sound Mixer", imdb: null },
   { year: 2024, month: 9, date: "Sep 2024", title: "She Was Murdered In My House", category: "Movie", location: "Toronto, ON", company: "Superhuman Images Inc.", role: "Boom Operator", imdb: null },
   { year: 2024, month: 9, date: "Sep 2024", title: "FriendSHIP", category: "Social", location: "Toronto, ON", company: "Merchant", role: "Sound Mixer", imdb: null, video: "https://youtu.be/mdH6nCN1Wzo" },
-  { year: 2024, month: 9, date: "Sep 2024", title: "Enna Nu Rehna Sehna Nai Aunda", category: "Movie", location: "Brampton, ON", company: "Qultr Motion Pictures", role: "Sound Mixer", imdb: "tt33044546" },
+  { year: 2024, month: 9, date: "Sep 2024", title: "Enna Nu Rehna Sehna Nai Aunda", category: "Movie", location: "Brampton, ON", company: "Qultr Motion Pictures", role: "Sound Mixer", imdb: "tt33044546", video: "https://youtu.be/QpKpz81alZ8" },
   { year: 2024, month: 9, date: "Aug–Sep 2024", title: "Ordinary Girl in a Tiara", category: "Movie", location: "Hamilton, ON", company: "NE OGIAT Productions ULC", role: "Boom / Mixer", imdb: "tt33362130" },
   { year: 2024, month: 8, date: "Aug 2024", title: "Legacy Assets BHP", category: "Commercial", location: "Elliot Lake, ON", company: "Barbershop Films", role: "Sound Mixer", imdb: null },
   { year: 2024, month: 5, date: "May 2024", title: "Her Last Supper", category: "Movie", location: "Toronto, ON", company: "Her Last Supper Productions Inc.", role: "Boom Operator", imdb: "tt32056451" },

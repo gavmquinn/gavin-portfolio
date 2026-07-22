@@ -8,7 +8,9 @@
     'On the set for the FOX World Series pregame special interviews. (2025)',
     'Placing a plant mic to capture every sound possible.',
     "Capturing clean dialogue for 'Thank you for coming'. (2026)",
-    "Out in the bush capturing a scene for 'Most of the time we are just waiting' (2021)"
+    "Out in the bush capturing a scene for 'Most of the time we are just waiting' (2021)",
+    "Troubleshooting on the set of 'The Memory Keeper' (2025)",
+    "On the set of 'The Memory Keeper' (2025)"
   ];
 
   const lightbox = document.getElementById('lightbox');
