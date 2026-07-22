@@ -15,7 +15,7 @@ const CREDITS = [
   { year: 2026, month: 5, date: "May 2026", title: "Can I Come In", category: "Movie", location: "Toronto, ON", company: "CICI Film Inc.", role: "Sound Mixer", imdb: null },
   { year: 2026, month: 1, date: "Jan 2026", title: "My Highschool Sweetheart Just Died", category: "Movie", location: "Toronto, ON", company: "FCP Film Inc.", role: "Sound Mixer", imdb: null },
   { year: 2026, month: 7, date: "Jul 2026", title: "Haventree Bank", category: "Commercial", location: "Toronto, ON", company: "Fela Productions", role: "Sound Mixer", imdb: null, video: "https://youtu.be/uR6J4H2r6JM" },
-  { year: 2026, month: 5, date: "May 2026", title: "Drake — Iceman", category: "Music Video", location: "Toronto, ON", company: "Kid Studio", role: "Playback / A2", imdb: null, video: "https://youtu.be/ESRCdJHbvnU" },
+  { year: 2026, month: 5, date: "May 2026", title: "Drake — 2 Hard 4 The Radio", category: "Music Video", location: "Toronto, ON", company: "Kid Studio", role: "Playback / A2", imdb: "tt42727252", video: "https://youtu.be/ESRCdJHbvnU" },
   { year: 2026, month: 3, date: "Mar 2026", title: "Royal Nannies", category: "Movie", location: "Hamilton, ON", company: "French Toast Films", role: "Sound Mixer", imdb: "tt42599178" },
   { year: 2026, month: 6, date: "Jun 2026", title: "Thank You Come Again", category: "Short Film", location: "Toronto, ON", company: null, role: "Sound Mixer", imdb: null },
 
