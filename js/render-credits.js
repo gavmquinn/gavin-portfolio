@@ -1,4 +1,4 @@
-var CATEGORY_ORDER = ["Movie", "TV Show", "Short Film", "Documentary", "Commercial", "Music Video", "Social"];
+var CATEGORY_ORDER = ["Movie", "TV Show", "Short Film", "Documentary", "Commercial", "Music Video", "Livestream", "Social"];
 
 function creditMeta(c) {
   return c.company ? c.location + " | " + c.company : c.location;

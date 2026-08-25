@@ -5,8 +5,10 @@
 // month of the shoot range, 1-12) — it's independent of array order.
 // `category` drives the filter buttons on the credits page — keep it
 // to one of: Movie, TV Show, Short Film, Documentary, Commercial,
-// Music Video, Social.
+// Music Video, Livestream, Social.
 const CREDITS = [
+  { year: 2026, month: 8, date: "Aug 2026", title: "Drake x Kick Livestream", category: "Livestream", location: "Toronto, ON", company: null, role: "Sound Mixer", imdb: null, video: "https://kick.com/drake/videos/019fe414-b858-7db8-801f-e62fdc647997" },
+  { year: 2026, month: 8, date: "Aug 2026", title: "Macy Murdoch S3", category: "TV Show", location: "Toronto, ON", company: "Shaftesbury Digital III Inc.", role: "Sound Mixer", imdb: null },
   { year: 2026, month: 4, date: "Apr 2026", title: "Crowning At The Prom", category: "Movie", location: "Hamilton, ON", company: "NE Crowning at the Prom Productions ULC", role: "Sound Mixer", imdb: "tt42004395" },
   { year: 2026, month: 7, date: "Jun–Jul 2026", title: "The Christmas Feast", category: "Movie", location: "Hamilton, ON", company: "NE Christmas Eve Productions ULC", role: "Sound Mixer", imdb: null },
   { year: 2026, month: 5, date: "May 2026", title: "Bulges", category: "TV Show", location: "Hamilton, ON", company: "Bulges Inc.", role: "Sound Mixer", imdb: "tt43362271" },
