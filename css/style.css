@@ -677,61 +677,19 @@ nav .wrap{
     radial-gradient(ellipse at 50% 40%, rgba(124,77,255,0.35), transparent 65%),
     linear-gradient(160deg, #1A1440 0%, #0E0B24 100%);
 }
-.project-icon-wifi{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:var(--bg-raised);
-  color:var(--teal);
-}
-.project-visual-wifi{
-  position:relative;
-  padding:0;
-  background:
-    radial-gradient(circle at 56% 50%, rgba(91,154,148,0.25), transparent 45%),
-    var(--bg-raised);
-}
-.wifi-map{
-  position:absolute;
-  inset:0;
-  background-image:
-    linear-gradient(rgba(237,234,225,0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(237,234,225,0.05) 1px, transparent 1px);
-  background-size:40px 40px;
-}
-.wifi-pin{
-  position:absolute;
-  width:12px;
-  height:12px;
-  margin:-6px 0 0 -6px;
-  border-radius:50%;
-  background:var(--teal);
-  box-shadow:0 0 0 4px rgba(91,154,148,0.2);
-}
-.wifi-pin-main{
-  width:18px;
-  height:18px;
-  margin:-9px 0 0 -9px;
-  background:var(--amber);
-  box-shadow:0 0 0 6px rgba(232,163,61,0.2);
-}
-.wifi-pin-main::after{
-  content:'';
-  position:absolute;
-  inset:-6px;
-  border-radius:50%;
-  border:2px solid var(--amber);
-  animation:wifi-ping 2.4s ease-out infinite;
-}
-@keyframes wifi-ping{
-  0%{transform:scale(1); opacity:0.8;}
-  100%{transform:scale(4); opacity:0;}
-}
-@media (prefers-reduced-motion:reduce){
-  .wifi-pin-main::after{animation:none;}
-}
 .spec-link{color:var(--amber); text-decoration:none;}
 .spec-link:hover{text-decoration:underline;}
+.project-shots{
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+  gap:14px;
+}
+.project-shots img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:10px;
+}
 .project-body{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -747,7 +705,7 @@ nav .wrap{
   display:inline-block;
   margin-top:12px;
 }
-.project-specs .spec-row{grid-template-columns:110px 1fr; gap:16px;}
+.project-specs .spec-row{grid-template-columns:120px 1fr; gap:16px;}
 .project-specs .spec-row:first-child{padding-top:0;}
 .project-strip-label{
   font-size:12px;
@@ -774,7 +732,8 @@ nav .wrap{
   .project-body{grid-template-columns:1fr; gap:32px;}
   .project-name{font-size:28px;}
   .project-visual{aspect-ratio:4/3; padding:16px;}
-  .project-strip{
+  .project-strip,
+  .project-shots{
     display:flex;
     overflow-x:auto;
     scroll-snap-type:x mandatory;
@@ -783,7 +742,8 @@ nav .wrap{
     margin:0 -32px;
     padding:0 32px 6px;
   }
-  .project-strip img{
+  .project-strip img,
+  .project-shots img{
     flex:0 0 auto;
     width:58%;
     scroll-snap-align:center;
