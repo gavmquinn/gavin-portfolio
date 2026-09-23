@@ -32,6 +32,11 @@ nav{
   background:rgba(22,23,26,0.9);
   backdrop-filter:blur(6px);
   border-bottom:1px solid var(--line);
+  transition:transform 0.25s ease;
+}
+nav.nav-hidden{transform:translateY(-100%);}
+@media (prefers-reduced-motion:reduce){
+  nav{transition:none;}
 }
 nav .wrap{
   display:flex; align-items:center; justify-content:space-between;
