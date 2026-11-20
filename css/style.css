@@ -672,7 +672,8 @@ nav .wrap{
   transition:transform 0.4s ease;
 }
 .project-visual:hover img{transform:scale(1.03);}
-.project-visual-puzzlerush{background:#000;}
+.project-visual-puzzlerush{background:#000; aspect-ratio:2000/857; padding:0;}
+.project-visual-puzzlerush img{width:100%; height:100%; object-fit:cover;}
 .project-visual + .project-shots{margin-top:16px;}
 .spec-link{color:var(--amber); text-decoration:none;}
 .spec-link:hover{text-decoration:underline;}
@@ -709,6 +710,7 @@ nav .wrap{
   .project-body{grid-template-columns:1fr; gap:32px;}
   .project-name{font-size:28px;}
   .project-visual{aspect-ratio:4/3; padding:16px;}
+  .project-visual-puzzlerush{aspect-ratio:2000/857; padding:0;}
   .project-shots{
     display:flex;
     overflow-x:auto;
